@@ -8,6 +8,8 @@
 
 Tecnólogo en Análisis y Desarrollo de Software (ADSO) · SENA, 2024–2026 · En etapa productiva
 
+> ⚡ **En 10 segundos:** backend junior en Java y Spring Boot. Lideré **TuEvento**, una plataforma de eventos con 6 microservicios y Kafka, entregada y desplegada. Hoy estoy en prácticas diseñando la plataforma de una distribuidora con SDD y TDD.
+
 [![Email](https://img.shields.io/badge/Email-cristoferlozano233%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:cristoferlozano233@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Cristofer_Lozano-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/cristofer-lozano-490918385)
 [![GitHub followers](https://img.shields.io/github/followers/lozano2303?label=Followers&style=flat-square&logo=github)](https://github.com/lozano2303)
@@ -197,6 +199,10 @@ Hago mis prácticas diseñando la **plataforma digital de una distribuidora mayo
 Desarrollada con **Capysoft** · **6 microservicios Spring Boot 3** con **DDD hexagonal** y **Kafka** · Web **React** · Móvil **React Native + Expo**
 
 Entregada como proyecto final de ADSO en noviembre de 2026 (versión 1.2.1)
+
+<img src="assets/tuevento-sillas.gif" width="560" alt="Demo de TuEvento: selección de sillas en tiempo real"/>
+
+<sub>🎟️ Selección de sillas: eliges la sección, marcas tus sillas y pasas al pago · [▶️ Ver el demo completo](https://drive.google.com/file/d/1JQwpBJMLQlUPd2DGHQo5i_C7UzpmvF-B/view?usp=drive_link)</sub>
 
 </div>
 
