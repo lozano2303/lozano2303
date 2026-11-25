@@ -527,32 +527,12 @@ public class RefreshTokenUseCase implements RefreshTokenPort {
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:2E9EF7&height=140&section=header&text=Lo%20que%20no%20se%20ve%20en%20los%20commits&fontSize=30&fontColor=ffffff&animation=fadeIn" alt="Lo que no se ve en los commits"/>
 </div>
 
-
 #### 📉 La caída
-`ánimo ▰▱▱▱▱`
-
-```mermaid
-journey
-    title La caída
-    section Ánimo
-      No pasé la sustentación: 1: Yo
-      Mi equipo sale a prácticas: 2: Yo, Equipo
-```
-
 No pasé la sustentación. Mis compañeros de equipo salieron a prácticas y yo volví a empezar en una ficha donde no conocía a nadie. Algunos se burlaron. Me alegraba por mis compañeros, de verdad: hicieron todo lo posible para que saliera con ellos, pero no se pudo. Aun así, por las noches me preguntaba si esto de verdad era para mí, o si solo estaba perdiendo el tiempo.
 
+<p align="right"><img src="https://img.shields.io/badge/%C3%A1nimo-%E2%96%B0%E2%96%B1%E2%96%B1%E2%96%B1%E2%96%B1-red?style=flat-square" alt="ánimo 1 de 5"/></p>
+
 #### 🕳️ Cuando toqué fondo
-`ánimo ▱▱▱▱▱`
-
-```mermaid
-journey
-    title Cuando toqué fondo
-    section Ánimo
-      Mi papá casi se nos va: 1: Yo, Papá
-      Pienso en dejar el estudio: 1: Yo
-      Mi mamá y mi tío me frenan: 3: Mamá, Tío
-```
-
 Y cuando pensé que no podía ponerse peor, mi papá casi se nos va. Ahí sí no supe qué hacer. No sabía si iba a volver a ser el mismo, ni cómo íbamos a sostener la casa, ni si tenía sentido seguir estudiando algo que ya me había dejado atrás una vez. Estaba decidido a dejarlo y ponerme a trabajar con mi tío.
 
 > [!IMPORTANT]
@@ -561,35 +541,23 @@ Y cuando pensé que no podía ponerse peor, mi papá casi se nos va. Ahí sí no
 
 Me quedé, pero sin ninguna certeza. Trabajaba con mi tío mientras mi papá se recuperaba de a poco. Lo veía levantarse de la cama para acompañarnos, aunque fuera solo a estar ahí, sintiéndose una carga. Yo me sentía igual. Lloré, no lo voy a negar. Ese año también se alejaron personas que quería, y hubo días en los que no veía para dónde iba nada.
 
+<p align="right"><img src="https://img.shields.io/badge/%C3%A1nimo-%E2%96%B1%E2%96%B1%E2%96%B1%E2%96%B1%E2%96%B1-8b0000?style=flat-square" alt="ánimo 0 de 5"/></p>
+
 #### 🔥 Levantarse
-`ánimo ▰▰▰▱▱`
-
-```mermaid
-journey
-    title Levantarse
-    section Ánimo
-      Mi papá vuelve a trabajar: 3: Yo, Papá
-      Compro la moto destartalada: 3: Yo
-```
-
 Después me fui a trabajar con mi papá de manera independiente. Yo me encargaba de lo pesado mientras él se esforzaba hasta donde el cuerpo le daba. Lo veía ponerse pálido, a punto de caerse, y aun así seguía. En las tardes me iba a estudiar y a sentar las bases de TuEvento sin saber si algún día iba a servir de algo. Lo único que tenía claro era que, si él no se rendía después de algo tan grave, yo tampoco podía.
 
 Con lo que fui ganando le compré la moto a mi tío. Estaba feíta y destartalada, y no faltó quien se burlara de cómo se veía. Dolía, no lo niego, pero era mía y ya no tenía que cruzar la ciudad en bus.
 
+Y mis compañeros del año pasado nunca se fueron del todo. Uno me prestó su computador cuando el de mi casa ya no aguantaba el proyecto. Otro me escuchó cuando le confesé que tenía miedo de perder otra vez. Y otro me ayudó a probar la app y la web cuando ya estaban desplegadas. Estuvieron conmigo hasta el final.
+
+<p align="right"><img src="https://img.shields.io/badge/%C3%A1nimo-%E2%96%B0%E2%96%B0%E2%96%B0%E2%96%B1%E2%96%B1-orange?style=flat-square" alt="ánimo 3 de 5"/></p>
+
 #### 📈 La subida
-`ánimo ▰▰▰▰▰`
-
-```mermaid
-journey
-    title La subida
-    section Ánimo
-      La empresa me patrocina: 4: Yo
-      Empiezo mis prácticas: 5: Yo
-```
-
 En los últimos meses de la etapa lectiva, la empresa donde hoy hago mis prácticas vio lo que estaba haciendo y decidió patrocinarme. Por primera vez sentí que el esfuerzo, que nunca fue poco, empezaba a dar frutos.
 
 Me demoré un año más, pero llegué mucho más preparado.
+
+<p align="right"><img src="https://img.shields.io/badge/%C3%A1nimo-%E2%96%B0%E2%96%B0%E2%96%B0%E2%96%B0%E2%96%B0-brightgreen?style=flat-square" alt="ánimo 5 de 5"/></p>
 
 **🔁 Antes → ahora**
 
@@ -608,6 +576,7 @@ Me demoré un año más, pero llegué mucho más preparado.
 | 🏳️ Veces que me rendí | **0** |
 | 🚌 Veces que crucé la ciudad en bus | Ni idea, demasiadas |
 | 🛑 Personas que me frenaron a tiempo | 2 |
+| 🤝 Compañeros que siguieron conmigo hasta el final | 3 |
 | 🦾 Ejemplos de verdad en la casa | 1, mi papá |
 
 Y están pasando cosas que en ese momento ni me atrevía a imaginar.
