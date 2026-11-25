@@ -621,12 +621,16 @@ $ git log --oneline --reverse vida/2025-2026
 > [!TIP]
 > No lo cuento para dar lástima ni para presumir. Lo cuento para quien esté donde yo estuve, sin saber qué viene: **el menosprecio no es para siempre, y tocar fondo tampoco. Después de tocarlo, lo único que queda es subir.**
 
+**✉️ Para el Cristofer de la noche de la sustentación**
+
+> Tranquilo. Sé que hoy sientes que todo se acabó, pero no es así. Mira a tu papá: si él puede levantarse, tú también. No le des importancia a las burlas; en un año esa moto va a estar como nueva, y tú también. No te atormentes pensando tanto. Todo va a mejorar. Todo.
+
 **🙏 Gracias a…**
 
 - ✝️ **Dios**, por las fuerzas cuando ya no me quedaban.
 - 👩 **Mi mamá**, por frenarme cuando quería dejarlo todo.
 - 👨 **Mi papá**, por enseñarme sin decir una palabra que uno se levanta.
-- 🛠️ **Mi tío**, por el trabajo cuando más lo necesitábamos y por venderme la moto.
+- 🛠️ **Mi tío**, por dejar de lado comprarse su moto para ayudar a mantener la casa, y por apoyarnos siempre como un hermano mayor.
 - 🐈‍⬛ **[Jhampier](https://github.com/TheJhampierBoy)**, por ir codo a codo de principio a fin.
 - 🤝 **Mis compañeros del año pasado**, por el computador, por escucharme y por probar la app conmigo.
 - 🏢 **La empresa que me patrocinó**, por creer en mí antes de que yo terminara.
