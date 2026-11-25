@@ -551,13 +551,18 @@ Con lo que fui ganando le compré la moto a mi tío. Estaba feíta y destartalad
 Y mis compañeros del año pasado nunca se fueron del todo. Uno me prestó su computador cuando el de mi casa ya no aguantaba el proyecto. Otro me escuchó cuando le confesé que tenía miedo de perder otra vez. Y otro me ayudó a probar la app y la web cuando ya estaban desplegadas. Estuvieron conmigo hasta el final.
 
 Y en todo el camino tuve a [Jhampier](https://github.com/TheJhampierBoy) al lado. Construimos TuEvento codo a codo, desde la primera línea hasta la entrega.
+Los dos teníamos miedo, y aun así lo enfrentamos todo juntos.
+
+<p align="center"><img src="assets/gatitos.svg" width="300" alt="Dos gatitos negros gym rat con gafas, abrazados y temblando de miedo"/></p>
 
 <p align="right"><img src="https://img.shields.io/badge/%C3%A1nimo-%E2%96%B0%E2%96%B0%E2%96%B0%E2%96%B1%E2%96%B1-orange?style=flat-square" alt="ánimo 3 de 5"/></p>
 
 #### 📈 La subida
 En los últimos meses de la etapa lectiva, la empresa donde hoy hago mis prácticas vio lo que estaba haciendo y decidió patrocinarme. Por primera vez sentí que el esfuerzo, que nunca fue poco, empezaba a dar frutos.
 
-Me demoré un año más, pero llegué mucho más preparado.
+Me demoré un año más, pero llegué mucho más preparado. Y esta vez, Jhampier y yo salimos a prácticas juntos.
+
+<p align="center"><img src="assets/gatitos-celebrando.svg" width="300" alt="Dos gatitos negros gym rat con gafas celebrando"/></p>
 
 <p align="right"><img src="https://img.shields.io/badge/%C3%A1nimo-%E2%96%B0%E2%96%B0%E2%96%B0%E2%96%B0%E2%96%B0-brightgreen?style=flat-square" alt="ánimo 5 de 5"/></p>
 
