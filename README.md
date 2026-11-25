@@ -530,7 +530,7 @@ public class RefreshTokenUseCase implements RefreshTokenPort {
 #### 📉 La caída
 No pasé la sustentación. Mis compañeros de equipo salieron a prácticas y yo volví a empezar en una ficha donde no conocía a nadie. Algunos se burlaron. Me alegraba por mis compañeros, de verdad: hicieron todo lo posible para que saliera con ellos, pero no se pudo. Aun así, por las noches me preguntaba si esto de verdad era para mí, o si solo estaba perdiendo el tiempo.
 
-<p align="right"><img src="https://img.shields.io/badge/%C3%A1nimo-%E2%96%B0%E2%96%B0%E2%96%B1%E2%96%B1%E2%96%B1-orange?style=flat-square" alt="ánimo 2 de 5"/></p>
+<p align="right"><img src="https://img.shields.io/badge/%C3%A1nimo-2%2F5-orange?style=flat-square" alt="ánimo 2 de 5"/></p>
 
 #### 🕳️ Cuando toqué fondo
 Y cuando pensé que no podía ponerse peor, mi papá casi se nos va. Ahí sí no supe qué hacer. No sabía si iba a volver a ser el mismo, ni cómo íbamos a sostener la casa, ni si tenía sentido seguir estudiando algo que ya me había dejado atrás una vez. Estaba decidido a dejarlo y ponerme a trabajar con mi tío.
@@ -541,14 +541,14 @@ Y cuando pensé que no podía ponerse peor, mi papá casi se nos va. Ahí sí no
 
 Me quedé, pero sin ninguna certeza. Trabajaba con mi tío mientras mi papá se recuperaba de a poco. Lo veía levantarse de la cama para acompañarnos, aunque fuera solo a estar ahí, sintiéndose una carga. Yo me sentía igual. Lloré, no lo voy a negar. Ese año también se alejaron personas que quería, y hubo días en los que no veía para dónde iba nada.
 
-<p align="right"><img src="https://img.shields.io/badge/%C3%A1nimo-%E2%96%B0%E2%96%B1%E2%96%B1%E2%96%B1%E2%96%B1-red?style=flat-square" alt="ánimo 1 de 5"/></p>
+<p align="right"><img src="https://img.shields.io/badge/%C3%A1nimo-1%2F5-red?style=flat-square" alt="ánimo 1 de 5"/></p>
 
 #### ⚡ Un chispazo de luz
 Después me fui a trabajar con mi papá de manera independiente. Yo me encargaba de lo pesado mientras él se esforzaba hasta donde el cuerpo le daba. Lo veía ponerse pálido, a punto de caerse, y aun así seguía. En las tardes me iba a estudiar y a sentar las bases de TuEvento sin saber si algún día iba a servir de algo. Lo único que tenía claro era que, si él no se rendía después de algo tan grave, yo tampoco podía.
 
 Con lo que fui ganando le compré la moto a mi tío. Estaba feíta y destartalada, y no faltó quien se burlara de cómo se veía. Dolía, no lo niego, pero era mía y ya no tenía que cruzar la ciudad en bus.
 
-<p align="right"><img src="https://img.shields.io/badge/%C3%A1nimo-%E2%96%B0%E2%96%B0%E2%96%B0%E2%96%B1%E2%96%B1-yellow?style=flat-square" alt="ánimo 3 de 5"/></p>
+<p align="right"><img src="https://img.shields.io/badge/%C3%A1nimo-3%2F5-yellow?style=flat-square" alt="ánimo 3 de 5"/></p>
 
 #### 🤝 Hermanos que no abandonan
 <img align="right" src="assets/gatitos.gif" width="190" alt="Dos gatitos abrazados que no se sueltan cuando tratan de separarlos"/>
@@ -559,26 +559,20 @@ Y en todo el camino tuve a [Jhampier](https://github.com/TheJhampierBoy) al lado
 
 <sub>🎥 Video: @alpagut552 en TikTok</sub>
 
-<p align="right"><img src="https://img.shields.io/badge/%C3%A1nimo-%E2%96%B0%E2%96%B0%E2%96%B0%E2%96%B0%E2%96%B1-yellowgreen?style=flat-square" alt="ánimo 4 de 5"/></p>
+<br clear="right"/>
+<p align="right"><img src="https://img.shields.io/badge/%C3%A1nimo-4%2F5-yellowgreen?style=flat-square" alt="ánimo 4 de 5"/></p>
 
 #### 📈 La subida
-
-<table>
-<tr>
-<td valign="top">
+<img align="right" src="assets/gatitos-celebrando.gif" width="190" alt="Dos gatitos con gorros de baño bailando"/>
 
 En los últimos meses de la etapa lectiva, la empresa donde hoy hago mis prácticas vio lo que estaba haciendo y decidió patrocinarme. Por primera vez sentí que el esfuerzo, que nunca fue poco, empezaba a dar frutos.
 
 Me demoré un año más, pero llegué mucho más preparado. Y esta vez, Jhampier y yo salimos a prácticas juntos.
 
-</td>
-<td width="200" align="center" valign="top">
-<img src="assets/gatitos-celebrando.gif" width="190" alt="Dos gatitos con gorros de baño bailando"/><br>
-<sub>🎥 Video de TikTok (créditos en la marca de agua)</sub><br><br>
-<img src="https://img.shields.io/badge/%C3%A1nimo-%E2%96%B0%E2%96%B0%E2%96%B0%E2%96%B0%E2%96%B0-brightgreen?style=flat-square" alt="ánimo 5 de 5"/>
-</td>
-</tr>
-</table>
+<sub>🎥 Video de TikTok (créditos en la marca de agua)</sub>
+
+<br clear="right"/>
+<p align="right"><img src="https://img.shields.io/badge/%C3%A1nimo-5%2F5-brightgreen?style=flat-square" alt="ánimo 5 de 5"/></p>
 
 **🔁 Antes → ahora**
 
