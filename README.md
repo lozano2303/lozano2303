@@ -534,23 +534,119 @@ public class RefreshTokenUseCase implements RefreshTokenPort {
 <summary><b>🔧 Lo que no se ve en los commits</b></summary>
 <br>
 
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:2E9EF7&height=140&section=header&text=Lo%20que%20no%20se%20ve%20en%20los%20commits&fontSize=30&fontColor=ffffff&animation=fadeIn" alt="Lo que no se ve en los commits"/>
+</div>
+
+```mermaid
+journey
+    title Mi ánimo durante ese año
+    section La caída
+      No pasé la sustentación: 1: Yo
+      Mi equipo sale a prácticas: 2: Yo, Equipo
+    section El fondo
+      Mi papá casi se nos va: 1: Yo, Papá
+      Pienso en dejar el estudio: 1: Yo
+      Mi mamá y mi tío me frenan: 3: Mamá, Tío
+    section Levantarse
+      Mi papá vuelve a trabajar: 3: Yo, Papá
+      Compro la moto destartalada: 3: Yo
+    section La subida
+      La empresa me patrocina: 4: Yo
+      Empiezo mis prácticas: 5: Yo
+```
+
+#### 📉 La caída
+`ánimo ▰▱▱▱▱`
+
 No pasé la sustentación. Mis compañeros de equipo salieron a prácticas y yo volví a empezar en una ficha donde no conocía a nadie. Algunos se burlaron. Me alegraba por mis compañeros, de verdad: hicieron todo lo posible para que saliera con ellos, pero no se pudo. Aun así, por las noches me preguntaba si esto de verdad era para mí, o si solo estaba perdiendo el tiempo.
 
-Y cuando pensé que no podía ponerse peor, mi papá casi se nos va. Ahí sí no supe qué hacer. No sabía si iba a volver a ser el mismo, ni cómo íbamos a sostener la casa, ni si tenía sentido seguir estudiando algo que ya me había dejado atrás una vez. Estaba decidido a dejarlo y ponerme a trabajar con mi tío. Fue mi mamá, junto con él, quien me frenó: *"su papá no quiere eso para usted"*.
+#### 🕳️ Cuando toqué fondo
+`ánimo ▱▱▱▱▱`
+
+Y cuando pensé que no podía ponerse peor, mi papá casi se nos va. Ahí sí no supe qué hacer. No sabía si iba a volver a ser el mismo, ni cómo íbamos a sostener la casa, ni si tenía sentido seguir estudiando algo que ya me había dejado atrás una vez. Estaba decidido a dejarlo y ponerme a trabajar con mi tío.
+
+> [!IMPORTANT]
+> 💬 *"Su papá no quiere eso para usted."*
+> — Mi mamá, cuando ella y mi tío me frenaron
 
 Me quedé, pero sin ninguna certeza. Trabajaba con mi tío mientras mi papá se recuperaba de a poco. Lo veía levantarse de la cama para acompañarnos, aunque fuera solo a estar ahí, sintiéndose una carga. Yo me sentía igual. Lloré, no lo voy a negar. Ese año también se alejaron personas que quería, y hubo días en los que no veía para dónde iba nada.
+
+#### 🔥 Levantarse
+`ánimo ▰▰▰▱▱`
 
 Después me fui a trabajar con mi papá de manera independiente. Yo me encargaba de lo pesado mientras él se esforzaba hasta donde el cuerpo le daba. Lo veía ponerse pálido, a punto de caerse, y aun así seguía. En las tardes me iba a estudiar y a sentar las bases de TuEvento sin saber si algún día iba a servir de algo. Lo único que tenía claro era que, si él no se rendía después de algo tan grave, yo tampoco podía.
 
 Con lo que fui ganando le compré la moto a mi tío. Estaba feíta y destartalada, y no faltó quien se burlara de cómo se veía. Dolía, no lo niego, pero era mía y ya no tenía que cruzar la ciudad en bus.
 
+#### 📈 La subida
+`ánimo ▰▰▰▰▰`
+
 En los últimos meses de la etapa lectiva, la empresa donde hoy hago mis prácticas vio lo que estaba haciendo y decidió patrocinarme. Por primera vez sentí que el esfuerzo, que nunca fue poco, empezaba a dar frutos.
 
-Me demoré un año más, pero llegué mucho más preparado. Hoy estoy en prácticas, la moto de la que se burlaban está como nueva, tengo mi propio portátil y están pasando cosas que en ese momento ni me atrevía a imaginar.
+Me demoré un año más, pero llegué mucho más preparado.
 
-No lo cuento para dar lástima ni para presumir. Lo cuento para quien esté donde yo estuve, sin saber qué viene: el menosprecio no es para siempre, y tocar fondo tampoco. Después de tocarlo, lo único que queda es subir.
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**🔁 Antes → ahora**
+
+| Antes | Ahora |
+|:-----:|:-----:|
+| 🚌 Cruzando la ciudad en bus | 🏍️ En mi propia moto |
+| 🛵 Una moto destartalada | ✨ La misma moto, como nueva |
+| 🖥️ Sin computador propio | 💻 Mi propio portátil |
+| ❓ Sin saber si iba a terminar | 🏢 Patrocinado y en prácticas |
+
+</td>
+<td width="50%" valign="top">
+
+**📊 Estadísticas de ese año**
+
+| | |
+|:--|:--:|
+| 🤔 Veces que pensé en rendirme | Muchas |
+| 🏳️ Veces que me rendí | **0** |
+| 🚌 Veces que crucé la ciudad en bus | Ni idea, demasiadas |
+| 🛑 Personas que me frenaron a tiempo | 2 |
+| 🦾 Ejemplos de verdad en la casa | 1, mi papá |
+
+</td>
+</tr>
+</table>
+
+Y están pasando cosas que en ese momento ni me atrevía a imaginar.
+
+**📜 El changelog de ese año**
+
+```bash
+$ git log --oneline --reverse vida/2025-2026
+❌ a1c0de1  test: sustentación técnica (FAILED)
+🕳️ d0wn404  chore: tocar fondo
+💬 9a7e2b3  revert: "dejar el estudio" (mamá y tío)
+🔥 f1x3d00  fix: mi papá se levanta, y yo también
+🏍️ m0t0f3a  feat: moto destartalada, hoy como nueva
+🏢 p4tr0c1  feat: patrocinio de la empresa
+🚀 HEAD     release: prácticas en curso
+```
+
+---
+
+> [!TIP]
+> No lo cuento para dar lástima ni para presumir. Lo cuento para quien esté donde yo estuve, sin saber qué viene: **el menosprecio no es para siempre, y tocar fondo tampoco. Después de tocarlo, lo único que queda es subir.**
+
+<div align="center">
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1200&color=2E9EF7&center=true&vCenter=true&width=500&lines=El+menosprecio+no+es+para+siempre.;Tocar+fondo+tampoco.;Lo+%C3%BAnico+que+queda+es+subir.)](https://git.io/typing-svg)
 
 Gracias a Dios y a todas las personas que me apoyaron. 🙏
+
+![De pie](https://img.shields.io/badge/estado-de_pie-brightgreen?style=for-the-badge)
+![Prácticas](https://img.shields.io/badge/prácticas-en_curso-blue?style=for-the-badge)
+![Rendirse](https://img.shields.io/badge/rendirse-nunca-red?style=for-the-badge)
+
+</div>
 
 </details>
 
