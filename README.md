@@ -553,7 +553,7 @@ Y mis compañeros del año pasado nunca se fueron del todo. Uno me prestó su co
 Y en todo el camino tuve a [Jhampier](https://github.com/TheJhampierBoy) al lado. Construimos TuEvento codo a codo, desde la primera línea hasta la entrega.
 Los dos teníamos miedo, y aun así lo enfrentamos todo juntos.
 
-<p align="center"><img src="assets/gatitos.jpg" width="420" alt="Dos gatitos negros recién nacidos con gafas, acurrucados juntos"/></p>
+<p align="center"><img src="assets/gatitos.gif" width="260" alt="Dos gatitos abrazados que no se sueltan cuando tratan de separarlos"/><br><sub>🎥 Video: @alpagut552 en TikTok</sub></p>
 
 <p align="right"><img src="https://img.shields.io/badge/%C3%A1nimo-%E2%96%B0%E2%96%B0%E2%96%B0%E2%96%B1%E2%96%B1-orange?style=flat-square" alt="ánimo 3 de 5"/></p>
 
@@ -562,7 +562,7 @@ En los últimos meses de la etapa lectiva, la empresa donde hoy hago mis prácti
 
 Me demoré un año más, pero llegué mucho más preparado. Y esta vez, Jhampier y yo salimos a prácticas juntos.
 
-<p align="center"><img src="assets/gatitos-celebrando.jpg" width="420" alt="Los mismos dos gatitos negros con gafas, celebrando entre confeti"/></p>
+<p align="center"><img src="assets/gatitos-celebrando.gif" width="260" alt="Dos gatitos con gorros de baño bailando"/><br><sub>🎥 Video de TikTok (créditos en la marca de agua)</sub></p>
 
 <p align="right"><img src="https://img.shields.io/badge/%C3%A1nimo-%E2%96%B0%E2%96%B0%E2%96%B0%E2%96%B0%E2%96%B0-brightgreen?style=flat-square" alt="ánimo 5 de 5"/></p>
 
