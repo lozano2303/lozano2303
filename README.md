@@ -488,10 +488,6 @@ La versión anterior se **reescribió por completo**: primero como monolito modu
 
 ### 📈 Evolución profesional
 
-<table>
-<tr>
-<td width="50%">
-
 #### 🎮 Proyecto del primer año
 ```php
 // Commit: "hasheo funcional"
@@ -506,9 +502,6 @@ if ($user && password_verify($_POST['password'], $user['password'])) {
 ❌ Sin arquitectura clara  
 ❌ Commits poco descriptivos  
 ❌ Código sin separación de capas
-
-</td>
-<td width="50%">
 
 #### 🚀 Tu Evento (entregado)
 ```java
@@ -526,10 +519,6 @@ public class RefreshTokenUseCase implements RefreshTokenPort {
 ✅ **Conventional commits + PRs + releases**  
 ✅ **Microservicios con Kafka**
 
-</td>
-</tr>
-</table>
-
 <details>
 <summary><b>🔧 Lo que no se ve en los commits</b></summary>
 <br>
@@ -538,31 +527,31 @@ public class RefreshTokenUseCase implements RefreshTokenPort {
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:2E9EF7&height=140&section=header&text=Lo%20que%20no%20se%20ve%20en%20los%20commits&fontSize=30&fontColor=ffffff&animation=fadeIn" alt="Lo que no se ve en los commits"/>
 </div>
 
-```mermaid
-journey
-    title Mi ánimo durante ese año
-    section La caída
-      No pasé la sustentación: 1: Yo
-      Mi equipo sale a prácticas: 2: Yo, Equipo
-    section El fondo
-      Mi papá casi se nos va: 1: Yo, Papá
-      Pienso en dejar el estudio: 1: Yo
-      Mi mamá y mi tío me frenan: 3: Mamá, Tío
-    section Levantarse
-      Mi papá vuelve a trabajar: 3: Yo, Papá
-      Compro la moto destartalada: 3: Yo
-    section La subida
-      La empresa me patrocina: 4: Yo
-      Empiezo mis prácticas: 5: Yo
-```
 
 #### 📉 La caída
 `ánimo ▰▱▱▱▱`
+
+```mermaid
+journey
+    title La caída
+    section Ánimo
+      No pasé la sustentación: 1: Yo
+      Mi equipo sale a prácticas: 2: Yo, Equipo
+```
 
 No pasé la sustentación. Mis compañeros de equipo salieron a prácticas y yo volví a empezar en una ficha donde no conocía a nadie. Algunos se burlaron. Me alegraba por mis compañeros, de verdad: hicieron todo lo posible para que saliera con ellos, pero no se pudo. Aun así, por las noches me preguntaba si esto de verdad era para mí, o si solo estaba perdiendo el tiempo.
 
 #### 🕳️ Cuando toqué fondo
 `ánimo ▱▱▱▱▱`
+
+```mermaid
+journey
+    title Cuando toqué fondo
+    section Ánimo
+      Mi papá casi se nos va: 1: Yo, Papá
+      Pienso en dejar el estudio: 1: Yo
+      Mi mamá y mi tío me frenan: 3: Mamá, Tío
+```
 
 Y cuando pensé que no podía ponerse peor, mi papá casi se nos va. Ahí sí no supe qué hacer. No sabía si iba a volver a ser el mismo, ni cómo íbamos a sostener la casa, ni si tenía sentido seguir estudiando algo que ya me había dejado atrás una vez. Estaba decidido a dejarlo y ponerme a trabajar con mi tío.
 
@@ -575,6 +564,14 @@ Me quedé, pero sin ninguna certeza. Trabajaba con mi tío mientras mi papá se 
 #### 🔥 Levantarse
 `ánimo ▰▰▰▱▱`
 
+```mermaid
+journey
+    title Levantarse
+    section Ánimo
+      Mi papá vuelve a trabajar: 3: Yo, Papá
+      Compro la moto destartalada: 3: Yo
+```
+
 Después me fui a trabajar con mi papá de manera independiente. Yo me encargaba de lo pesado mientras él se esforzaba hasta donde el cuerpo le daba. Lo veía ponerse pálido, a punto de caerse, y aun así seguía. En las tardes me iba a estudiar y a sentar las bases de TuEvento sin saber si algún día iba a servir de algo. Lo único que tenía claro era que, si él no se rendía después de algo tan grave, yo tampoco podía.
 
 Con lo que fui ganando le compré la moto a mi tío. Estaba feíta y destartalada, y no faltó quien se burlara de cómo se veía. Dolía, no lo niego, pero era mía y ya no tenía que cruzar la ciudad en bus.
@@ -582,13 +579,17 @@ Con lo que fui ganando le compré la moto a mi tío. Estaba feíta y destartalad
 #### 📈 La subida
 `ánimo ▰▰▰▰▰`
 
+```mermaid
+journey
+    title La subida
+    section Ánimo
+      La empresa me patrocina: 4: Yo
+      Empiezo mis prácticas: 5: Yo
+```
+
 En los últimos meses de la etapa lectiva, la empresa donde hoy hago mis prácticas vio lo que estaba haciendo y decidió patrocinarme. Por primera vez sentí que el esfuerzo, que nunca fue poco, empezaba a dar frutos.
 
 Me demoré un año más, pero llegué mucho más preparado.
-
-<table>
-<tr>
-<td width="50%" valign="top">
 
 **🔁 Antes → ahora**
 
@@ -599,9 +600,6 @@ Me demoré un año más, pero llegué mucho más preparado.
 | 🖥️ Sin computador propio | 💻 Mi propio portátil |
 | ❓ Sin saber si iba a terminar | 🏢 Patrocinado y en prácticas |
 
-</td>
-<td width="50%" valign="top">
-
 **📊 Estadísticas de ese año**
 
 | | |
@@ -611,10 +609,6 @@ Me demoré un año más, pero llegué mucho más preparado.
 | 🚌 Veces que crucé la ciudad en bus | Ni idea, demasiadas |
 | 🛑 Personas que me frenaron a tiempo | 2 |
 | 🦾 Ejemplos de verdad en la casa | 1, mi papá |
-
-</td>
-</tr>
-</table>
 
 Y están pasando cosas que en ese momento ni me atrevía a imaginar.
 
