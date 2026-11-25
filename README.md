@@ -562,15 +562,23 @@ Y en todo el camino tuve a [Jhampier](https://github.com/TheJhampierBoy) al lado
 <p align="right"><img src="https://img.shields.io/badge/%C3%A1nimo-%E2%96%B0%E2%96%B0%E2%96%B0%E2%96%B0%E2%96%B1-yellowgreen?style=flat-square" alt="ánimo 4 de 5"/></p>
 
 #### 📈 La subida
-<img align="right" src="assets/gatitos-celebrando.gif" width="190" alt="Dos gatitos con gorros de baño bailando"/>
+
+<table>
+<tr>
+<td valign="top">
 
 En los últimos meses de la etapa lectiva, la empresa donde hoy hago mis prácticas vio lo que estaba haciendo y decidió patrocinarme. Por primera vez sentí que el esfuerzo, que nunca fue poco, empezaba a dar frutos.
 
 Me demoré un año más, pero llegué mucho más preparado. Y esta vez, Jhampier y yo salimos a prácticas juntos.
 
-<sub>🎥 Video de TikTok (créditos en la marca de agua)</sub>
-
-<p align="right"><img src="https://img.shields.io/badge/%C3%A1nimo-%E2%96%B0%E2%96%B0%E2%96%B0%E2%96%B0%E2%96%B0-brightgreen?style=flat-square" alt="ánimo 5 de 5"/></p>
+</td>
+<td width="200" align="center" valign="top">
+<img src="assets/gatitos-celebrando.gif" width="190" alt="Dos gatitos con gorros de baño bailando"/><br>
+<sub>🎥 Video de TikTok (créditos en la marca de agua)</sub><br><br>
+<img src="https://img.shields.io/badge/%C3%A1nimo-%E2%96%B0%E2%96%B0%E2%96%B0%E2%96%B0%E2%96%B0-brightgreen?style=flat-square" alt="ánimo 5 de 5"/>
+</td>
+</tr>
+</table>
 
 **🔁 Antes → ahora**
 
@@ -613,11 +621,21 @@ $ git log --oneline --reverse vida/2025-2026
 > [!TIP]
 > No lo cuento para dar lástima ni para presumir. Lo cuento para quien esté donde yo estuve, sin saber qué viene: **el menosprecio no es para siempre, y tocar fondo tampoco. Después de tocarlo, lo único que queda es subir.**
 
+**🙏 Gracias a…**
+
+- ✝️ **Dios**, por las fuerzas cuando ya no me quedaban.
+- 👩 **Mi mamá**, por frenarme cuando quería dejarlo todo.
+- 👨 **Mi papá**, por enseñarme sin decir una palabra que uno se levanta.
+- 🛠️ **Mi tío**, por el trabajo cuando más lo necesitábamos y por venderme la moto.
+- 🐈‍⬛ **[Jhampier](https://github.com/TheJhampierBoy)**, por ir codo a codo de principio a fin.
+- 🤝 **Mis compañeros del año pasado**, por el computador, por escucharme y por probar la app conmigo.
+- 🏢 **La empresa que me patrocinó**, por creer en mí antes de que yo terminara.
+
 <div align="center">
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1200&color=2E9EF7&center=true&vCenter=true&width=500&lines=El+menosprecio+no+es+para+siempre.;Tocar+fondo+tampoco.;Lo+%C3%BAnico+que+queda+es+subir.)](https://git.io/typing-svg)
 
-Gracias a Dios y a todas las personas que me apoyaron. 🙏
+Y a todas las personas que me apoyaron, aunque no aparezcan aquí. 🙏
 
 ![De pie](https://img.shields.io/badge/estado-de_pie-brightgreen?style=for-the-badge)
 ![Prácticas](https://img.shields.io/badge/prácticas-en_curso-blue?style=for-the-badge)
