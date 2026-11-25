@@ -550,6 +550,8 @@ Con lo que fui ganando le compré la moto a mi tío. Estaba feíta y destartalad
 
 Y mis compañeros del año pasado nunca se fueron del todo. Uno me prestó su computador cuando el de mi casa ya no aguantaba el proyecto. Otro me escuchó cuando le confesé que tenía miedo de perder otra vez. Y otro me ayudó a probar la app y la web cuando ya estaban desplegadas. Estuvieron conmigo hasta el final.
 
+Y en todo el camino tuve a [Jhampier](https://github.com/TheJhampierBoy) al lado. Construimos TuEvento codo a codo, desde la primera línea hasta la entrega.
+
 <p align="right"><img src="https://img.shields.io/badge/%C3%A1nimo-%E2%96%B0%E2%96%B0%E2%96%B0%E2%96%B1%E2%96%B1-orange?style=flat-square" alt="ánimo 3 de 5"/></p>
 
 #### 📈 La subida
@@ -577,6 +579,7 @@ Me demoré un año más, pero llegué mucho más preparado.
 | 🚌 Veces que crucé la ciudad en bus | Ni idea, demasiadas |
 | 🛑 Personas que me frenaron a tiempo | 2 |
 | 🤝 Compañeros que siguieron conmigo hasta el final | 3 |
+| 👊 Compañero codo a codo en todo el desarrollo | 1, [Jhampier](https://github.com/TheJhampierBoy) |
 | 🦾 Ejemplos de verdad en la casa | 1, mi papá |
 
 Y están pasando cosas que en ese momento ni me atrevía a imaginar.
