@@ -2,11 +2,11 @@
 
 # 👨‍💻 Cristofer David Lozano Contreras
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=2E9EF7&center=true&vCenter=true&width=600&lines=Backend+Developer+Junior;DDD+%2B+Hexagonal+Architecture;Spring+Boot+3+%7C+WebSocket+%7C+Docker;Building+real-time+event+platforms)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=2E9EF7&center=true&vCenter=true&width=600&lines=Backend+Developer+Junior;Microservicios+%7C+DDD+%2B+Hexagonal;Spring+Boot+3+%7C+Kafka+%7C+Docker;Building+real-time+event+platforms)](https://git.io/typing-svg)
 
 **Líder de Capysoft** | Neiva, Huila, Colombia 🇨🇴
 
-Estudiante de Análisis y Desarrollo de Software (ADSO) en el SENA, 2024–2026
+Tecnólogo en Análisis y Desarrollo de Software (ADSO) · SENA, 2024–2026 · En etapa productiva
 
 [![Email](https://img.shields.io/badge/Email-cristoferlozano233%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:cristoferlozano233@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Cristofer_Lozano-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/cristofer-lozano-490918385)
@@ -24,19 +24,23 @@ const cristofer = {
     ubicacion: "Neiva, Huila 🇨🇴",
     rol: "Backend Developer Junior",
     empresa: "Capysoft (Team Lead)",
-    educacion: "ADSO - SENA (2024-2026)",
+    educacion: "ADSO - SENA (2024-2026), en etapa productiva",
     experiencia: ["Tensometálicas"],
     idiomas: ["Español (Nativo)", "Inglés (B1/B2)"],
-    
+
+    practicas: "Diseño de una plataforma para una distribuidora mayorista",
+
     workflow: [
+        "SDD: documento y decido (ADR) antes de construir",
+        "TDD: rojo → verde → refactorizar",
         "rama → Liquibase → dominio → infraestructura → aplicación → REST",
         "Validación con Swagger + pruebas end-to-end",
         "IA como herramienta (reviso, pruebo y corrijo)"
     ],
-    
+
     filosofia: "Entender el porqué arquitectónico antes de implementar",
-    
-    actualmente_aprendiendo: ["Kubernetes avanzado", "Event-Driven Architecture"],
+
+    actualmente_aprendiendo: ["Kubernetes avanzado", "Observabilidad"],
     dato_curioso: "Mi primer proyecto tenía commits como 'hasheo funcional' 😅"
 };
 ```
@@ -51,6 +55,45 @@ Experiencia laboral en el sector industrial antes de enfocarme en desarrollo de 
 
 ---
 
+## 🧭 Cómo trabajo
+
+<table>
+<tr>
+<td width="50%">
+
+#### 📐 SDD: diseñar antes de construir
+- Lo apliqué en **TuEvento** (con el marco SDD del SENA) y lo adapté para el proyecto de mis prácticas
+- Documentación por secciones: contexto, dominio, requisitos, arquitectura, datos, API, UML, DevOps, calidad y operación
+- Decisiones técnicas registradas como **ADR**, con alternativas evaluadas
+- Contratos **OpenAPI**, modelos de datos en **DBML** y diagramas **C4 / Mermaid**
+- Matriz de trazabilidad: cada historia de usuario se une con su módulo, sus reglas de negocio, sus eventos y las pruebas que la cubren
+- Lo que el negocio no ha confirmado se marca *(por confirmar)*: no se inventan requisitos
+- La documentación también pasa CI: contratos, diagramas, modelos y enlaces se validan en cada PR
+
+</td>
+<td width="50%">
+
+#### 🧪 TDD: la prueba primero
+- Ciclo **rojo → verde → refactorizar** y principios **FIRST**
+- **Fakes** en memoria antes que mocks; el tiempo se inyecta con `Clock`
+- Pirámide: unitarias (JUnit + AssertJ, Vitest), integración (Testcontainers), contrato contra OpenAPI y pocos E2E
+- Carga con **k6** y seguridad con **OWASP ZAP** antes de cada versión
+- Cobertura medida con **JaCoCo** en el pipeline
+
+</td>
+</tr>
+</table>
+
+### 💼 Etapa productiva
+
+Hago mis prácticas diseñando la **plataforma digital de una distribuidora mayorista**: catálogo y cotizaciones para clientes, una app de campo que funciona sin internet y herramientas internas para el equipo comercial.
+
+- Partí de un prototipo estático y lo convertí en un diseño completo con SDD, listo para que la gerencia lo apruebe
+- Escogí un **monolito modular** en lugar de microservicios, y lo dejé registrado en un ADR: después de TuEvento, sé cuándo vale la pena separar servicios y cuándo no
+- Stack planeado: Java 25, Spring Boot 4, Spring Modulith, PostgreSQL 18, React + Vite y Expo
+
+---
+
 ## 🛠️ Stack Tecnológico
 
 <div align="center">
@@ -59,16 +102,23 @@ Experiencia laboral en el sector industrial antes de enfocarme en desarrollo de 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
 ![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=spring-security&logoColor=white)
+![Spring Cloud Gateway](https://img.shields.io/badge/Spring_Cloud_Gateway-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
+![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apache-kafka&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 ![Liquibase](https://img.shields.io/badge/Liquibase-2962FF?style=for-the-badge&logo=liquibase&logoColor=white)
+![Python](https://img.shields.io/badge/Python_(FastAPI)-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
 ### DevOps & Cloud
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+![SonarQube](https://img.shields.io/badge/SonarQube-4E9BCD?style=for-the-badge&logo=sonarqube&logoColor=white)
 ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS_S3-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![MinIO](https://img.shields.io/badge/MinIO-C72E49?style=for-the-badge&logo=minio&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Portainer](https://img.shields.io/badge/Portainer-13BEF9?style=for-the-badge&logo=portainer&logoColor=white)
+![MinIO](https://img.shields.io/badge/MinIO_/_S3-C72E49?style=for-the-badge&logo=minio&logoColor=white)
+![k6](https://img.shields.io/badge/k6-7D64FF?style=for-the-badge&logo=k6&logoColor=white)
 
 ### Frontend & Móvil
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
@@ -76,6 +126,7 @@ Experiencia laboral en el sector industrial antes de enfocarme en desarrollo de 
 ![Tailwind](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Expo](https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white)
+![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white)
 
 ### Herramientas & Otros
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
@@ -97,22 +148,27 @@ Experiencia laboral en el sector industrial antes de enfocarme en desarrollo de 
 <summary>🔧 Stack detallado</summary>
 
 #### Backend
-- **Java 23**, **Spring Boot 3** con arquitectura **DDD hexagonal** (puertos y adaptadores)
-- **Spring Security** (JWT + OAuth2), **WebSocket** (STOMP + SockJS)
-- **PostgreSQL 17**, **MySQL** para proyectos legacy
-- **Liquibase** para versionado de esquema de base de datos
+- **Java 17** y **Spring Boot 3.5**: 6 microservicios + API Gateway, cada servicio con **DDD hexagonal** (puertos y adaptadores)
+- **Spring Cloud Gateway** con circuit breaker (**Resilience4j**)
+- **Apache Kafka** para eventos de dominio, con **outbox transaccional** y consumidores idempotentes
+- **Spring Security**: JWT **RS256** verificado por JWKS, Refresh Token con rotación, OAuth2 (Google)
+- **Redis** para la lista de revocación de tokens
+- **WebSocket** (STOMP + SockJS) para sillas en tiempo real
+- **PostgreSQL 17** + **Liquibase** (más de 110 changesets), **MySQL** en proyectos del primer año
+- **Python + FastAPI** para el servicio de moderación de imágenes
 
-#### DevOps & Infrastructure
-- **Docker** para contenedorización
-- **Kubernetes** para orquestación de contenedores
-- **Jenkins** para CI/CD pipelines
-- **AWS S3**, **MinIO** para almacenamiento de objetos
-- **SonarQube** para análisis de calidad de código
+#### DevOps & Infraestructura
+- **GitHub Actions**: tests + cobertura JaCoCo + **SonarQube Cloud**, build web y bundle de Expo
+- **Jenkins** (Jenkinsfile) y manifiestos de **Kubernetes** (Deployment, Service, Ingress, HPA)
+- **Docker Compose** en producción sobre un VPS con **Portainer** y **Nginx Proxy Manager**
+- **MinIO** (compatible con S3) con URLs firmadas
+- **k6** para pruebas de concurrencia sobre la reserva de sillas
+- Versionado semántico con CHANGELOG y tags por release
 
 #### Frontend & Mobile
-- **React 18** + **Vite** + **Tailwind CSS** para web
-- **React Native** + **Expo** para aplicaciones móviles
-- **Konva** para gráficos 2D interactivos
+- **React 18** + **Vite** + **Tailwind CSS 4**, con **Konva** (editor 2D), **Leaflet** (mapas) e **i18next**
+- **React Native 0.81** + **Expo 54**, con escaneo de QR desde la cámara
+- **Vitest** + Testing Library
 
 #### Primer año ADSO
 - **PHP** + **PHPMailer** para backend
@@ -128,17 +184,19 @@ Experiencia laboral en el sector industrial antes de enfocarme en desarrollo de 
 <div align="center">
 
 [![Repo](https://img.shields.io/badge/GitHub-TuEvento-181717?style=for-the-badge&logo=github)](https://github.com/lozano2303/TuEvento)
-[![Stars](https://img.shields.io/github/stars/lozano2303/TuEvento?style=for-the-badge&logo=github)](https://github.com/lozano2303/TuEvento/stargazers)
+[![Release](https://img.shields.io/github/v/tag/lozano2303/TuEvento?style=for-the-badge&label=release&sort=semver)](https://github.com/lozano2303/TuEvento/tags)
 [![Last Commit](https://img.shields.io/github/last-commit/lozano2303/TuEvento?style=for-the-badge&logo=github)](https://github.com/lozano2303/TuEvento/commits)
-[![Status](https://img.shields.io/badge/status-in_development-yellow?style=for-the-badge)](https://github.com/lozano2303/TuEvento)
+[![Status](https://img.shields.io/badge/status-entregado_(SENA_2026)-brightgreen?style=for-the-badge)](https://github.com/lozano2303/TuEvento)
 
-[![Commits (All Branches)](https://img.shields.io/github/commit-activity/m/lozano2303/TuEvento?style=flat-square&label=Commits%20(Todas%20las%20ramas)&color=success)](https://github.com/lozano2303/TuEvento/commits)
-[![Branch Develop](https://img.shields.io/badge/Branch-develop%20(active)-blue?style=flat-square&logo=git)](https://github.com/lozano2303/TuEvento/tree/develop)
+[![Commits](https://img.shields.io/badge/commits-2.2k%2B-success?style=flat-square&logo=git)](https://github.com/lozano2303/TuEvento/commits)
+[![Pull Requests](https://img.shields.io/badge/pull_requests-210%2B-blue?style=flat-square&logo=github)](https://github.com/lozano2303/TuEvento/pulls?q=is%3Apr)
 [![Contributors](https://img.shields.io/github/contributors/lozano2303/TuEvento?style=flat-square)](https://github.com/lozano2303/TuEvento/graphs/contributors)
 
 **Plataforma full-stack de gestión de eventos y venta de boletas**
 
-Desarrollada con **Capysoft** · Backend **Spring Boot 3** con **DDD hexagonal** · Web **React** · Móvil **React Native + Expo**
+Desarrollada con **Capysoft** · **6 microservicios Spring Boot 3** con **DDD hexagonal** y **Kafka** · Web **React** · Móvil **React Native + Expo**
+
+Entregada como proyecto final de ADSO en noviembre de 2026 (versión 1.2.1)
 
 </div>
 
@@ -146,20 +204,24 @@ Desarrollada con **Capysoft** · Backend **Spring Boot 3** con **DDD hexagonal**
 
 ```mermaid
 graph TB
-    A[React Web] --> D[API Gateway]
-    B[React Native Mobile] --> D
-    D --> E[Backend Spring Boot 3]
-    E --> F[(PostgreSQL 17)]
-    E --> G[Redis Cache]
-    E --> H[MinIO/S3]
-    E --> I[Fake Payment Gateway]
-    E --> J[OpenNSFW2 Service]
-    E --> K[Sightengine API]
-    L[Jenkins CI/CD] --> M[Docker Registry]
-    M --> N[Kubernetes Cluster]
+    A[React Web] --> GW[API Gateway<br/>Spring Cloud]
+    B[React Native Mobile] --> GW
+    GW --> ID[identity-service]
+    GW --> CAT[catalog-service]
+    GW --> COM[commerce-service]
+    GW --> ST[storage-service]
+    GW --> NO[notification-service]
+    GW --> GEO[geolocation-service]
+    ID & CAT & COM & NO & GEO <--> K{{Kafka<br/>outbox + saga}}
+    ID & CAT & COM & ST & NO & GEO --> PG[(PostgreSQL 17)]
+    GW --> R[(Redis)]
+    ST --> M[MinIO / S3]
+    ST --> NS[OpenNSFW2<br/>FastAPI]
+    ST --> SE[Sightengine API]
+    COM --> FPG[Fake Payment Gateway]
+    CI[GitHub Actions + SonarQube] --> IMG[Imágenes Docker]
+    IMG --> VPS[VPS · Docker Compose + Portainer]
 ```
-
-### ✨ Lo construido
 
 ### 📊 Highlights Técnicos
 
@@ -169,26 +231,48 @@ graph TB
 
 #### 🎨 Frontend
 - ✅ Editor visual 2D con Konva
-- ✅ WebSocket real-time
-- ✅ Paginación optimizada
+- ✅ Sillas en tiempo real por WebSocket
+- ✅ Escaneo de QR desde el móvil
+- ✅ 4 idiomas (ES, EN, PT, FR)
 - ✅ Temas personalizables
-- ✅ Responsive design
 
 </td>
 <td width="50%">
 
 #### ⚙️ Backend
-- ✅ DDD + Hexagonal
-- ✅ Event-Driven
-- ✅ CI/CD completo
-- ✅ Moderation Pipeline
-- ✅ Payment Strategy Pattern
+- ✅ 6 microservicios + API Gateway
+- ✅ Saga coreografiada con Kafka
+- ✅ Outbox transaccional e idempotencia
+- ✅ Moderación de imágenes en dos capas
+- ✅ Pagos con patrón Strategy
 
 </td>
 </tr>
 </table>
 
 ---
+
+<details>
+<summary><b>🧩 De monolito a microservicios</b></summary>
+
+- El backend empezó como un monolito modular y se fue partiendo en **6 servicios**: `identity`, `catalog`, `commerce`, `storage`, `notification` y `geolocation`
+- Un **API Gateway** (Spring Cloud) envía cada prefijo de `/api/v1` al servicio dueño, sin ruta comodín
+- Ningún servicio lee las tablas de otro: se comunican por APIs internas protegidas y por **eventos de dominio en Kafka**
+- Los JWT **RS256** los firma `identity-service` y cada servicio los verifica con su **JWKS**; la revocación vive en **Redis** y falla cerrada
+
+</details>
+
+<details>
+<summary><b>🔁 Compra de boletas como saga</b></summary>
+
+- `commerce` crea la orden y le pide a `catalog` reservar las sillas
+- Al confirmarse el pago publica `OrderPaid` y `catalog` vende las sillas
+- Si la venta falla, `catalog` publica `SeatsSaleRejected` y `commerce` reembolsa el pago
+- Las órdenes canceladas o vencidas publican `OrderReleased` y las sillas se liberan
+- Eventos escritos con **outbox transaccional** y consumidos de forma idempotente
+- Conciliación de pagos pendientes con un job programado
+
+</details>
 
 <details>
 <summary><b>🎨 Editor visual 2D de recintos</b></summary>
@@ -203,18 +287,18 @@ graph TB
 <details>
 <summary><b>⚡ Selección de sillas en tiempo real</b></summary>
 
-- **WebSocket** (STOMP + SockJS) para sincronización de estado de sillas
-- Reserva temporal de **10 minutos** con expiración automática vía scheduler (`@Scheduled` cada 10 seg)
-- Carrito con cuenta regresiva en frontend (React `setInterval`) que libera reservas al expirar
-- Mapa paginado 10×10 con zoom animado, verificado con evento de ~999 sillas
+- **WebSocket** (STOMP + SockJS) para sincronizar el estado de las sillas entre web y móvil
+- Reserva temporal de **10 minutos** con expiración automática vía scheduler (cada 10 seg)
+- Carrito con cuenta regresiva en frontend que libera reservas al expirar
+- Prueba de carrera con **k6**: varios usuarios reservan la misma silla al mismo tiempo y solo uno la obtiene
 
 </details>
 
 <details>
 <summary><b>🎟️ Módulo de tickets</b></summary>
 
-- Órdenes con máquina de estados, generación de QR, check-in, auditoría completa
-- Tablas: `ticket`, `ticket_log`, `ticket_checkin`, `seat_ticket`
+- Órdenes con máquina de estados, generación de QR, check-in y auditoría completa
+- Escaneo de QR desde la app móvil; un QR ya usado se detecta y no permite reingreso
 
 </details>
 
@@ -223,56 +307,47 @@ graph TB
 
 - Microservicio **fake-payment-gateway** independiente (Spring Boot, estructura DDD completa)
 - Webhooks firmados con **HMAC-SHA256**, idempotencia, reintentos con backoff exponencial
-- Diseñado para cambiar a pasarela real (ej. Wompi) sin tocar la lógica del core
+- Diseñado para cambiar a una pasarela real (ej. Wompi) sin tocar la lógica del core
 
 </details>
 
 <details>
 <summary><b>💰 Reembolsos y wallet</b></summary>
 
-- Billetera digital con transacciones de recarga, pago, retiro, reembolso
-- **Pago mixto wallet + pasarela**: lógica implementada en `ChargeOrderViaGatewayUseCase`, cobra solo el delta por gateway
-- Manejo de reservas huérfanas ante fallos de integración
+- Billetera digital con transacciones de recarga, pago, retiro y reembolso
+- **Pago mixto wallet + pasarela**: `ChargeOrderViaGatewayUseCase` cobra por la pasarela solo la diferencia
+- Ganancias del organizador calculadas en `commerce-service`
 
 </details>
 
 <details>
 <summary><b>🛡️ Moderación de imágenes en dos capas</b></summary>
 
-- **OpenNSFW2** autoalojado (FastAPI, TensorFlow 2.12, modelo pinned `opennsfw2==0.10.2`)
-- **Sightengine** como segunda capa (evalúa gore, nudity, weapons); fail-open sin credenciales
-- Orquestado en cascade: OpenNSFW2 primero → Sightengine solo si pasa etapa 1
+- **OpenNSFW2** autoalojado (FastAPI, TensorFlow 2.16, `opennsfw2==0.13.3`)
+- **Sightengine** como segunda capa (gore, desnudos, armas)
+- En cascada: OpenNSFW2 primero y Sightengine solo si la imagen pasa la primera etapa; política fail-open ante fallos de infraestructura
+- Archivos en **MinIO** con URLs firmadas
 
 </details>
 
 <details>
-<summary><b>🎨 Temas personalizables</b></summary>
+<summary><b>🔔 Notificaciones, idiomas y temas</b></summary>
 
-- Sistema de temas (light, dark, purple, blue) con customización a nivel de propiedad
-- Disponible en web y móvil
-
-</details>
-
-<details>
-<summary><b>🔔 Módulo de notificaciones</b> <i>(en desarrollo)</i></summary>
-
-- Canales configurables: email (SMTP) y push
-- Estado de entrega: Pending, Sent, Delivered, Failed
+- `notification-service`: notificaciones en la app y por correo (SMTP), alimentadas por eventos de Kafka
+- Interfaz en **español, inglés, portugués y francés** (web y móvil) y traducción automática de contenido
+- Temas light, dark, purple y blue, con personalización por propiedad
 
 </details>
 
 <details>
-<summary><b>🌍 Internacionalización</b> <i>(en desarrollo)</i></summary>
+<summary><b>🧪 Calidad y entrega</b></summary>
 
-- Soporte para ES, EN, PT, JA con capa de traducción aplicada a entidades del dominio
-
-</details>
-
-<details>
-<summary><b>📚 Documentación</b></summary>
-
-- Manual de usuario web (formato APA 7)
-- Plan de pruebas y matriz de casos de prueba
+- Más de 230 clases de prueba en backend (JUnit + JaCoCo) y pruebas de frontend con Vitest
+- Pipeline en GitHub Actions con análisis de SonarQube Cloud
+- Releases versionados (v1.0.0 → v1.2.1) con CHANGELOG detallado y notas de despliegue
+- Despliegue en VPS con Docker Compose, Portainer y Nginx Proxy Manager
+- Manual de usuario, plan de pruebas y matriz de casos de prueba
+- Repositorio de documentación SDD aparte: ADR, contratos OpenAPI por servicio, modelo de datos, catálogo de microservicios, matriz de trazabilidad y modelo de amenazas **STRIDE**
 
 </details>
 
@@ -295,21 +370,21 @@ Sin DDD
 </td>
 <td width="50%" align="center">
 
-**Versión Actual**
+**Versión Entregada**
 
-[![New Repo](https://img.shields.io/badge/lozano2303%2FTuEvento-active-brightgreen?style=for-the-badge&logo=github)](https://github.com/lozano2303/TuEvento)
+[![New Repo](https://img.shields.io/badge/lozano2303%2FTuEvento-v1.2.1-brightgreen?style=for-the-badge&logo=github)](https://github.com/lozano2303/TuEvento)
 
-**DDD + Hexagonal**  
-**Jenkins + K8s + SonarQube**  
-**Modular N-Layer**
+**6 microservicios + Gateway**  
+**DDD + Hexagonal + Kafka**  
+**CI con SonarQube · Deploy en VPS**
 
 </td>
 </tr>
 </table>
 
-La versión anterior fue **completamente refactorizada** a **arquitectura N-Layer con DDD** (RF21). Se agregó un **pipeline CI/CD completo** con Jenkins, SonarQube, Docker y Kubernetes para pruebas automatizadas, análisis de calidad y despliegue continuo.
+La versión anterior se **reescribió por completo**: primero como monolito modular con **DDD y arquitectura hexagonal**, y después se dividió en **microservicios** que se comunican por Kafka. En el camino se agregó CI con pruebas, cobertura y SonarQube, y un despliegue reproducible con Docker.
 
-> **💡 Nota sobre desarrollo:** El trabajo activo de TuEvento se realiza en la rama `develop` siguiendo GitFlow. Los merges a `main` se hacen por releases completos. Para ver la actividad reciente, revisa [los commits en develop](https://github.com/lozano2303/TuEvento/commits/develop).
+> **💡 Nota sobre desarrollo:** TuEvento sigue GitFlow: el trabajo diario va en `develop` y a `main` solo llegan releases. La versión entregada al SENA está marcada con el tag `final-delivery-2026`.
 
 ---
 
@@ -420,8 +495,12 @@ La versión anterior fue **completamente refactorizada** a **arquitectura N-Laye
 #### 🎮 Proyecto del primer año
 ```php
 // Commit: "hasheo funcional"
-if ($password == $dbPassword) {
-    // Login success
+// login.php: SQL, lógica y HTML en el mismo archivo
+$stmt = $pdo->prepare("SELECT * FROM usuarios WHERE correo = ?");
+$stmt->execute([$_POST['correo']]);
+$user = $stmt->fetch();
+if ($user && password_verify($_POST['password'], $user['password'])) {
+    echo "<script>location.href='menu.php'</script>";
 }
 ```
 ❌ Sin arquitectura clara  
@@ -431,17 +510,21 @@ if ($password == $dbPassword) {
 </td>
 <td width="50%">
 
-#### 🚀 Tu Evento (hoy)
+#### 🚀 Tu Evento (entregado)
 ```java
-// Commit: "feat(auth): implement JWT refresh token rotation"
-@UseCase
-public class RefreshTokenUseCase {
-    // DDD + Hexagonal
+// identity-service · application/usecase
+@Service
+@RequiredArgsConstructor
+public class RefreshTokenUseCase implements RefreshTokenPort {
+    private final RefreshTokenRepository refreshTokenRepository;
+    private final AuthSessionRepository  authSessionRepository;
+    private final TokenGeneratorPort     tokenGenerator;
+    // ...
 }
 ```
-✅ **DDD + Hexagonal**  
-✅ **Conventional commits**  
-✅ **Clean Architecture**
+✅ **DDD + Hexagonal (puertos in/out)**  
+✅ **Conventional commits + PRs + releases**  
+✅ **Microservicios con Kafka**
 
 </td>
 </tr>
@@ -458,7 +541,7 @@ public class RefreshTokenUseCase {
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lozano2303&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0d1117"/>
 </a>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=lozano2303&theme=tokyonight&hide_border=true&background=0d1117" alt="lozano2303's streak"/>
+<img src="https://streak-stats.demolab.com/?user=lozano2303&theme=tokyonight&hide_border=true&background=0d1117" alt="lozano2303's streak"/>
 
 </div>
 
@@ -470,13 +553,12 @@ public class RefreshTokenUseCase {
 <details>
 <summary><b>💻 Distribución de código por proyecto</b></summary>
 
-| Proyecto | Rol | Tecnologías principales | Líneas de código* |
-|----------|-----|-------------------------|-------------------|
-| **Tu Evento** | Team Lead & Developer | Spring Boot, React, DDD | En desarrollo activo |
-| **Proyecto-juego** | Backend Developer | PHP, MySQL, JavaScript | ~1,229 (propio) + 9,427 (PHPMailer) |
-| **Pruebas técnicas** | Solo Developer | Laravel, React, Python | Repositorios académicos |
+| Proyecto | Rol | Tecnologías principales | Aporte* |
+|----------|-----|-------------------------|---------|
+| **Tu Evento** | Team Lead & Developer | Spring Boot, Kafka, React, React Native | ~1,380 de ~2,225 commits (≈62%) |
+| **Proyecto-juego** | Backend Developer | PHP, MySQL, JavaScript | ~1,229 líneas propias + 9,427 (PHPMailer) |
 
-*Estimaciones aproximadas basadas en commits verificados
+*Conteos tomados del historial de git de cada repositorio
 
 </details>
 
@@ -494,15 +576,13 @@ public class RefreshTokenUseCase {
 
 **Disponible para colaborar en proyectos de:**
 - 🏗️ Arquitectura backend con DDD y Clean Architecture
+- 🧩 Microservicios y mensajería con Kafka
 - ⚡ Aplicaciones en tiempo real con WebSocket
-- 🐳 Infraestructura con Docker y Kubernetes
-- 🎨 Plataformas full-stack con React/React Native
+- 🐳 Infraestructura con Docker y CI/CD
 
 **Zona horaria:** 🌎 UTC-5 (Colombia)
 
 </div>
-
----
 
 ---
 
@@ -517,26 +597,34 @@ public class RefreshTokenUseCase {
 
 ### Tech Stack
 
-**Backend:** Java 23 · Spring Boot 3 · DDD Hexagonal Architecture · Spring Security (JWT + OAuth2) · PostgreSQL 17 · Liquibase · WebSocket (STOMP + SockJS)
+**Backend:** Java 17 · Spring Boot 3.5 · Spring Cloud Gateway · Apache Kafka · DDD Hexagonal Architecture · Spring Security (RS256 JWT + OAuth2) · PostgreSQL 17 · Redis · Liquibase · WebSocket (STOMP + SockJS)
 
-**DevOps:** Docker · Kubernetes · Jenkins · AWS S3 · MinIO · SonarQube · CI/CD Pipelines
+**DevOps:** Docker · GitHub Actions · SonarQube Cloud · Jenkins · Kubernetes manifests · Portainer · MinIO (S3) · k6
 
-**Frontend & Mobile:** React 18 + Vite + Tailwind · React Native + Expo · Konva (2D graphics)
+**Frontend & Mobile:** React 18 + Vite + Tailwind · React Native + Expo · Konva (2D graphics) · i18next
 
 ### Main Project: Tu Evento
 
-Full-stack event management and ticketing platform built with **Capysoft**
+Full-stack event management and ticketing platform built with **Capysoft**, delivered as the SENA final project (v1.2.1, November 2026)
 
 **Key features implemented:**
-- ⚡ Real-time seat selection with WebSocket + 10-min auto-expiring reservations
+- 🧩 6 Spring Boot microservices behind a Spring Cloud API Gateway, each one hexagonal DDD
+- 🔁 Ticket purchase as a choreographed Kafka saga with a transactional outbox and idempotent consumers
+- ⚡ Real-time seat selection with WebSocket + 10-min auto-expiring reservations, race-tested with k6
 - 🎨 Visual 2D venue editor with Konva (drag & drop, Bézier polygons, auto seat distribution)
 - 💳 Payment gateway with Strategy pattern + HMAC-SHA256 webhooks + idempotency + retry with backoff
 - 💰 Digital wallet with mixed payment support (wallet + gateway)
 - 🛡️ Two-layer image moderation (OpenNSFW2 self-hosted + Sightengine API)
-- 🎟️ Complete ticketing module with QR generation, check-in, and audit logs
-- 🚀 Full CI/CD pipeline (Jenkins + SonarQube + Docker + Kubernetes)
+- 🎟️ Ticketing with QR generation, mobile QR scanning, check-in and audit logs
+- 🚀 CI with tests, coverage and SonarQube; versioned releases deployed to a VPS with Docker
 
-**Evolution:** Fully refactored from a basic architecture to **N-Layer DDD + Hexagonal** with complete DevOps automation
+**Evolution:** Rewritten from a basic architecture into a hexagonal DDD modular monolith, then split into Kafka-connected microservices
+
+### How I work
+
+**SDD (used in TuEvento and in my internship):** design first, with ADRs, OpenAPI contracts, DBML data models, C4/Mermaid diagrams and a traceability matrix (validated in CI in the internship project) · **TDD:** red → green → refactor, in-memory fakes, Testcontainers for integration
+
+**Internship:** designing the digital platform of a wholesale distributor as a modular monolith (Java 25, Spring Boot 4, PostgreSQL 18)
 
 ### Contact
 
@@ -544,7 +632,6 @@ Full-stack event management and ticketing platform built with **Capysoft**
 
 ---
 
-<sub>⭐ From [lozano2303](https://github.com/lozano2303) | 📝 README last updated: October 2026</sub>
+<sub>⭐ From [lozano2303](https://github.com/lozano2303) | 📝 README last updated: November 2026</sub>
 
 </div>
-
