@@ -530,6 +530,30 @@ public class RefreshTokenUseCase implements RefreshTokenPort {
 </tr>
 </table>
 
+<details>
+<summary><b>🔧 Lo que no se ve en los commits</b></summary>
+<br>
+
+No pasé la sustentación. Mis compañeros de equipo salieron a prácticas y yo volví a empezar en una ficha donde no conocía a nadie. Algunos se burlaron. Me alegraba por mis compañeros, de verdad: hicieron todo lo posible para que saliera con ellos, pero no se pudo. Aun así, por las noches me preguntaba si esto de verdad era para mí, o si solo estaba perdiendo el tiempo.
+
+Y cuando pensé que no podía ponerse peor, mi papá casi se nos va. Ahí sí no supe qué hacer. No sabía si iba a volver a ser el mismo, ni cómo íbamos a sostener la casa, ni si tenía sentido seguir estudiando algo que ya me había dejado atrás una vez. Estaba decidido a dejarlo y ponerme a trabajar con mi tío. Fue mi mamá, junto con él, quien me frenó: *"su papá no quiere eso para usted"*.
+
+Me quedé, pero sin ninguna certeza. Trabajaba con mi tío mientras mi papá se recuperaba de a poco. Lo veía levantarse de la cama para acompañarnos, aunque fuera solo a estar ahí, sintiéndose una carga. Yo me sentía igual. Lloré, no lo voy a negar. Ese año también se alejaron personas que quería, y hubo días en los que no veía para dónde iba nada.
+
+Después me fui a trabajar con mi papá de manera independiente. Yo me encargaba de lo pesado mientras él se esforzaba hasta donde el cuerpo le daba. Lo veía ponerse pálido, a punto de caerse, y aun así seguía. En las tardes me iba a estudiar y a sentar las bases de TuEvento sin saber si algún día iba a servir de algo. Lo único que tenía claro era que, si él no se rendía después de algo tan grave, yo tampoco podía.
+
+Con lo que fui ganando le compré la moto a mi tío. Estaba feíta y destartalada, y no faltó quien se burlara de cómo se veía. Dolía, no lo niego, pero era mía y ya no tenía que cruzar la ciudad en bus.
+
+En los últimos meses de la etapa lectiva, la empresa donde hoy hago mis prácticas vio lo que estaba haciendo y decidió patrocinarme. Por primera vez sentí que el esfuerzo, que nunca fue poco, empezaba a dar frutos.
+
+Me demoré un año más, pero llegué mucho más preparado. Hoy estoy en prácticas, la moto de la que se burlaban está como nueva, tengo mi propio portátil y están pasando cosas que en ese momento ni me atrevía a imaginar.
+
+No lo cuento para dar lástima ni para presumir. Lo cuento para quien esté donde yo estuve, sin saber qué viene: el menosprecio no es para siempre, y tocar fondo tampoco. Después de tocarlo, lo único que queda es subir.
+
+Gracias a Dios y a todas las personas que me apoyaron. 🙏
+
+</details>
+
 ---
 
 ## 📊 Estadísticas de GitHub
